@@ -7,6 +7,32 @@
 	<meta charset="utf-8">
 	<!-- <script type="text/javascript" src="phaser2.min.js"></script> -->
 	<title>Detective story</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			background: #ffffff;
+		}
+		#game{
+			width:100vw;
+			height: 100vh;
+			/*background:#ffffff;*/
+			/*Flex-Container*/
+			display: flex;
+		/*	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAQMAAABKLAcXAAAAA1BMVEUjrOlGFWxaAAAAE0lEQVQ4y2MYBaNgFIyCUUBXAAAFeAABxVDVdQAAAABJRU5ErkJggg==");
+		background-repeat: repeat;*/
+	}
+	#log{
+		color:red !important;
+		text-align: center;
+	}
+	#game canvas {  
+
+		width:50vw;
+		height: 50vh;
+		position: fixed;
+		/*background:red;*/
+		}﻿
+	</style>
 </head>
 <body onload = "gameStart()">
 	<div id = "game"></div>
